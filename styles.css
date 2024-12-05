@@ -15,8 +15,6 @@ body {
     height: 70px;
     align-items: center;
     font-weight: 550;
-    border: 3px;
-    border-style:solid;
 }
 .title {
     display: flex;
@@ -31,13 +29,33 @@ body {
     max-width: 400px;
     height: auto;
 }
-
+.feature .image {
+    height: 150px;
+    width: 170px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: rgb(36, 114, 204);
+    margin-bottom: 20px;
+}
 .feature {
     display: flex;
     flex-direction: column;
-    flex: 1;
-    padding: 0px 30px;
+    text-align: center;
+    gap: 30px;
 }
+
+.features{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.list {
+    align-items: center;
+    max-width: 170px;
+}
+
+
+
 .titletext{
     display: flex;
     flex-direction: column;
