@@ -21,7 +21,6 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-    flex: 1;
     padding: 50px 0px;
     gap: 30px;
 }
@@ -41,9 +40,12 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 30px;
+    margin: 30px 0px;
 }
-
+.featuretext {
+    font-size: 16px;
+    color: rgb(104, 103, 103);
+}
 .features{
     display: flex;
     justify-content: center;
@@ -54,6 +56,9 @@ body {
     max-width: 170px;
 }
 
+.transform {
+    max-width: 500px;
+}
 
 
 .titletext{
@@ -73,7 +78,21 @@ body {
 .quote {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    background: rgb(204, 204, 204);
+    justify-content: center;
+    padding: 100px;
+}
+
+#quote {
+    font-size: 32px;
+    font-weight: 200;
+    font-style: italic;
+    align-self: center;
+    max-width: 800px;
+}
+.name {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .logo{   
@@ -83,10 +102,33 @@ body {
 
 .login {
     display: flex;
-    flex-direction: column;
-    flex: 1;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    margin: 35px 100px;
+    padding: 35px 60px;
+    border-radius: 5px;
+    justify-content: space-between;
+    font-weight: 600;
+    align-items: center;
 }
-
+.action {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.actionsubtext {
+    max-width: 700px;
+}
+.signup {
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    font-size: 16.5px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: white;
+}
 .links {
     font-size: 18px;
 }
@@ -104,4 +146,13 @@ a {
     background-color: white;
     border-radius: 100px;
     padding: 10px 20px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
 }
